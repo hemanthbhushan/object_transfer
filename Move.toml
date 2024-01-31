@@ -1,0 +1,8 @@
+[package]
+name = "object_transfer"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+
+[addresses]
+object_transfer = "0x0"
